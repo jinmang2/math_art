@@ -6,7 +6,8 @@ import sys
 import matplotlib.pyplot as plt
 
 # Add project root to path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# (Assuming script is run from project root, 'src' is in path)
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "src")))
 
 # Enable x64 precision for strict reproduction of art formulas
 jax.config.update("jax_enable_x64", True)
