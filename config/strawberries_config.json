@@ -1,0 +1,9 @@
+{
+  "width": 2000,
+  "height": 1200,
+  "w_sum_range": 40,
+  "s_range": 40,
+  "k_sharpness": 1000.0,
+  "half_size_denominator": 600.0,
+  "output_file": "strawberries.png"
+}
